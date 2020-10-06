@@ -5,6 +5,7 @@ Boilerplate wiht all configs for react and tailwind css, using vs code
 ## Extensions 
 ESLINT <br /> 
 PRETTIER <br /> 
+TAILWINDCSS <br />
 
 # Steps
 ## Frist 
