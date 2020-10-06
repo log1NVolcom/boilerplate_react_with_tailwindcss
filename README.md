@@ -1,5 +1,5 @@
-# my_boilerplate_react
-Boilerplate wiht all configs for react, using vs code 
+# my_boilerplate_react and tailwind css
+Boilerplate wiht all configs for react and tailwind css, using vs code 
 
 # VS CODE
 ## Extensions 
