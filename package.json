@@ -1,12 +1,15 @@
 {
   "scripts": {
     "tailwind:css": "npx tailwindcss build src/css/tailwind.src.css -o src/css/tailwind.css",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject",
+    "pre:build": "yarn tailwind:css",
+    "build": "yarn pre:build && react-scripts build",
+    "pre:start": "yarn tailwind:css",
+    "start": "react-scripts start",
+    "start:clean": "yarn pre:start && yarn start",
+    "test": "react-scripts test",
     "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "npm run lint -- --fix",
-    "start": "react-scripts start",
-    "test": "react-scripts test"
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "react": "^16.13.1",

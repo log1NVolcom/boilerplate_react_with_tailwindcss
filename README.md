@@ -8,8 +8,8 @@ PRETTIER <br />
 TAILWINDCSS <br />
 
 # Steps
-## Frist 
-yarn or npm install <br />
+* yarn tailwind:css or npm run tailwind:css <br />
+* yarn or npm install <br />
 
 
 
